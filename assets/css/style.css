@@ -60,6 +60,9 @@ main {
   opacity: 0.3;
   z-index: -1;
 }
+.nav-responsive{
+    display: none;
+}
 .section-h1 {
   text-align: center;
   padding: 0 auto;
@@ -546,5 +549,7 @@ html {
   grid-template-rows: repeat(2, 100px 50px);
   margin: 0 auto;
 }
-
+.nav-responsive{
+    display: block;
+}
 }
