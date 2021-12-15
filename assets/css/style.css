@@ -35,6 +35,13 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 588px;
 }
+#inicio>div{
+    padding: 20px;
+    padding-top: 70px;
+    color: #482748;
+    font-family: arial;
+    font-style: oblique;
+}
 .main-p {
   width: 100%;
   font-family: monospace;
@@ -407,7 +414,8 @@ html {
 }
 @media only screen and (max-width: 865px) {
   #inicio > div {
-    overflow-y: scroll;
+    padding: 0px 20px;
+    padding-right: 70px;
   }
   header {
     display: none;
@@ -536,12 +544,15 @@ html {
   }
   #informacion {
     margin-top: 14px;
-  }footer {
+  }
+  footer {
   height: 500px;
   background: #000;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+    overflow-x: hidden;
 }
 .footer {
   display: grid;
@@ -551,5 +562,14 @@ html {
 }
 .nav-responsive{
     display: block;
+}
+section{
+    overflow-x: hidden;
+}
+nav {
+    width: auto;
+}
+.footer div p {
+    width: auto;
 }
 }
